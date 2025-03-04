@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0914649B2D77861E0088FF46 /* Closures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091464912D77861E0088FF46 /* Closures.framework */; };
 		09C903F02D67E33000BC5180 /* BasicOperators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C903E62D67E33000BC5180 /* BasicOperators.framework */; };
 		09C904272D689B0400BC5180 /* Strings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C9041D2D689B0400BC5180 /* Strings.framework */; };
 		09C904602D68F84A00BC5180 /* Collections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C904562D68F84A00BC5180 /* Collections.framework */; };
@@ -14,6 +15,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0914649C2D77861E0088FF46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C903CF2D67DD0C00BC5180 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 091464902D77861E0088FF46;
+			remoteInfo = Closures;
+		};
 		09C903F12D67E33000BC5180 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 09C903CF2D67DD0C00BC5180 /* Project object */;
@@ -57,6 +65,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		091464912D77861E0088FF46 /* Closures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Closures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0914649A2D77861E0088FF46 /* ClosuresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClosuresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C903D72D67DD0C00BC5180 /* Practice1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Practice1; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C903E62D67E33000BC5180 /* BasicOperators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BasicOperators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C903EF2D67E33000BC5180 /* BasicOperatorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicOperatorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +79,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		091464A22D77861E0088FF46 /* Exceptions for "Closures" folder in "Closures" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			publicHeaders = (
+				Closures.h,
+			);
+			target = 091464902D77861E0088FF46 /* Closures */;
+		};
 		09C904B42D762C4500BC5180 /* Exceptions for "Optional" folder in "Optional" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -93,6 +110,19 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		091464922D77861E0088FF46 /* Closures */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				091464A22D77861E0088FF46 /* Exceptions for "Closures" folder in "Closures" target */,
+			);
+			path = Closures;
+			sourceTree = "<group>";
+		};
+		0914649E2D77861E0088FF46 /* ClosuresTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ClosuresTests;
+			sourceTree = "<group>";
+		};
 		09C903D92D67DD0C00BC5180 /* Practice1 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Practice1;
@@ -145,6 +175,21 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0914648E2D77861E0088FF46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091464972D77861E0088FF46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0914649B2D77861E0088FF46 /* Closures.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		09C903D42D67DD0C00BC5180 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -227,6 +272,8 @@
 				09C904632D68F84A00BC5180 /* CollectionsTests */,
 				09C904B12D762C4500BC5180 /* Optional */,
 				09C9049A2D762C2400BC5180 /* OptionalTests */,
+				091464922D77861E0088FF46 /* Closures */,
+				0914649E2D77861E0088FF46 /* ClosuresTests */,
 				09C903D82D67DD0C00BC5180 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -243,6 +290,8 @@
 				09C9045F2D68F84A00BC5180 /* CollectionsTests.xctest */,
 				09C9048D2D762C2400BC5180 /* Optional.framework */,
 				09C904962D762C2400BC5180 /* OptionalTests.xctest */,
+				091464912D77861E0088FF46 /* Closures.framework */,
+				0914649A2D77861E0088FF46 /* ClosuresTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -250,6 +299,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0914648C2D77861E0088FF46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		09C903E12D67E33000BC5180 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -281,6 +337,52 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		091464902D77861E0088FF46 /* Closures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091464A32D77861E0088FF46 /* Build configuration list for PBXNativeTarget "Closures" */;
+			buildPhases = (
+				0914648C2D77861E0088FF46 /* Headers */,
+				0914648D2D77861E0088FF46 /* Sources */,
+				0914648E2D77861E0088FF46 /* Frameworks */,
+				0914648F2D77861E0088FF46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				091464922D77861E0088FF46 /* Closures */,
+			);
+			name = Closures;
+			packageProductDependencies = (
+			);
+			productName = Closures;
+			productReference = 091464912D77861E0088FF46 /* Closures.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		091464992D77861E0088FF46 /* ClosuresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091464A62D77861E0088FF46 /* Build configuration list for PBXNativeTarget "ClosuresTests" */;
+			buildPhases = (
+				091464962D77861E0088FF46 /* Sources */,
+				091464972D77861E0088FF46 /* Frameworks */,
+				091464982D77861E0088FF46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0914649D2D77861E0088FF46 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0914649E2D77861E0088FF46 /* ClosuresTests */,
+			);
+			name = ClosuresTests;
+			packageProductDependencies = (
+			);
+			productName = ClosuresTests;
+			productReference = 0914649A2D77861E0088FF46 /* ClosuresTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		09C903D62D67DD0C00BC5180 /* Practice1 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09C903DE2D67DD0C00BC5180 /* Build configuration list for PBXNativeTarget "Practice1" */;
@@ -495,6 +597,12 @@
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
+					091464902D77861E0088FF46 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					091464992D77861E0088FF46 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					09C903D62D67DD0C00BC5180 = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -547,11 +655,27 @@
 				09C9045E2D68F84A00BC5180 /* CollectionsTests */,
 				09C9048C2D762C2400BC5180 /* Optional */,
 				09C904952D762C2400BC5180 /* OptionalTests */,
+				091464902D77861E0088FF46 /* Closures */,
+				091464992D77861E0088FF46 /* ClosuresTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0914648F2D77861E0088FF46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091464982D77861E0088FF46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		09C903E42D67E33000BC5180 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -611,6 +735,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0914648D2D77861E0088FF46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		091464962D77861E0088FF46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		09C903D32D67DD0C00BC5180 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -677,6 +815,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0914649D2D77861E0088FF46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 091464902D77861E0088FF46 /* Closures */;
+			targetProxy = 0914649C2D77861E0088FF46 /* PBXContainerItemProxy */;
+		};
 		09C903F22D67E33000BC5180 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 09C903E52D67E33000BC5180 /* BasicOperators */;
@@ -700,6 +843,102 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		091464A42D77861E0088FF46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilya-kozar.Closures";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		091464A52D77861E0088FF46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilya-kozar.Closures";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		091464A72D77861E0088FF46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilya-kozar.ClosuresTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		091464A82D77861E0088FF46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilya-kozar.ClosuresTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		09C903DC2D67DD0C00BC5180 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1223,6 +1462,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		091464A32D77861E0088FF46 /* Build configuration list for PBXNativeTarget "Closures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091464A42D77861E0088FF46 /* Debug */,
+				091464A52D77861E0088FF46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		091464A62D77861E0088FF46 /* Build configuration list for PBXNativeTarget "ClosuresTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091464A72D77861E0088FF46 /* Debug */,
+				091464A82D77861E0088FF46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		09C903D22D67DD0C00BC5180 /* Build configuration list for PBXProject "Practice1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
