@@ -116,7 +116,7 @@ struct StringsTests {
         let str = "1223334444"
 
         let replacementResult = lengthOfLongestSubstring(str)
-        let expectedResult = 4
+        let expectedResult = 2
 
         #expect(replacementResult == expectedResult)
     }

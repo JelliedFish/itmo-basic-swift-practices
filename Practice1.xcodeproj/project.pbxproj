@@ -89,13 +89,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		091464D92D778C1D0088FF46 /* Exceptions for "Classes_Structures" folder in "Classes_Structures" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			publicHeaders = (
-				Classes_Structures.h,
-			);
-			target = 091464C72D778C1D0088FF46 /* Classes_Structures */;
-		};
 		09C904B42D762C4500BC5180 /* Exceptions for "Optional" folder in "Optional" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -132,9 +125,6 @@
 		};
 		091464C92D778C1D0088FF46 /* Classes_Structures */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				091464D92D778C1D0088FF46 /* Exceptions for "Classes_Structures" folder in "Classes_Structures" target */,
-			);
 			path = Classes_Structures;
 			sourceTree = "<group>";
 		};
