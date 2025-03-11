@@ -83,7 +83,7 @@ struct Classes_StructuresTests {
         let car = Car(make: "Toyota", model: "Supra", year: 1997)
         car.accelerate(by: 50.0)
         car.decelerate(by: 20.0)
-        let expectedResult = "Make: Toyota, Model: Supra, Year: 2007, Current Speed: 30.0"
+        let expectedResult = "Make: Toyota, Model: Supra, Year: 1997, Current Speed: 30.0"
         let result = car.info()
         #expect(expectedResult == result)
     }
